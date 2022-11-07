@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="https://unpkg.com/flowbite@1.5.3/dist/flowbite.min.css" />
+   <script src="https://cdn.tailwindcss.com"></script>
+   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous">
+   <link rel="stylesheet" href="../style.css">
+   <!-- en font -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet">
+   <script>
+      tailwind.config = {
+         theme: {
+            extend: {
+               colors: {
+                  pri: "#304e3e",
+                  sec: "#f6f1bc",
+               }
+            },
+            container: {
+               center: true,
+               padding: "1rem",
+            },
+         },
+      };
+   </script>
+   <style>
+      *{
+         font-family: 'Cairo', sans-serif;
+      }
+      .img-container{
+         position: relative;
+         width: 100%;
+         padding-top: 75%;
+         overflow: hidden;
+         border-radius: 1.5rem 1.5rem 0 0;
+      }
+      .img-container img{
+         position: absolute;
+         top: 50%;
+         left: 50%;
+         transform: translate(-50%, -50%);
+         width: 100%;
+         min-width: 100%;
+         min-height: 100%;
+
+
+      }
+   </style>
+</head>
+<body dir="rtl">
+   <div class="text-layout menu"></div>
+   <header class="text-gray-400 py-8">
+      <nav class="container flex gap-4 md:gap-8">
+         <button class="text-4xl md:text-6xl hover:scale-105 transition" onclick="window.history.back()">
+            <i class="fal fa-arrow-circle-right"></i>
+         </button>
+         <div class="grow uppercase border-b-2 text-4xl font-light">الفئة</div>
+      </nav>
+   </header>
+   <main class="container">
+      <div class="grid gap-4 md:gap-8 pb-8 grid-cols-1 md:grid-cols-3">
+         <div class="bg-gray-100 shadow-lg rounded-[2rem] flex flex-col">
+            <div class="img-container">
+               <img src="../images/food.png" alt="">
+            </div>
+            <div class="p-4 grow flex-col flex">
+               <h3 class="capitalize text-2xl border-b w-fit pb-2 mb-2">أسم الاكلة</h3>
+               <p class="font-light text-gray-600 mb-4">
+                  لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت,سيت دو أيوسمود تيمبور
+
+                  أنكايديديونتيوت لابوري ات دولار ماجنا أليكيوا . يوت انيم أد مينيم فينايم,كيواس نوستريد
+                  
+                  أكسير سيتاشن يللأمكو لابورأس نيسي يت أليكيوب
+                  </p>
+               <div class="bg-pri w-fit text-sec py-2 px-5 rounded-xl mt-auto">السعر: <strong>10 ريال</strong></div>
+            </div>
+         </div>
+         <div class="bg-gray-100 shadow-lg rounded-[2rem] flex flex-col">
+            <div class="img-container">
+               <img src="../images/food.png" alt="">
+            </div>
+            <div class="p-4 grow flex-col flex">
+               <h3 class="capitalize text-2xl border-b w-fit pb-2 mb-2">أسم الاكلة</h3>
+               <p class="font-light text-gray-600 mb-4">
+                  لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت,سيت دو أيوسمود تيمبور
+                  أكسير سيتاشن يللأمكو لابورأس نيسي يت أليكيوب
+                  </p>
+               <div class="bg-pri w-fit text-sec py-2 px-5 rounded-xl mt-auto">السعر: <strong>10 ريال</strong></div>
+            </div>
+         </div>
+         <div class="bg-gray-100 shadow-lg rounded-[2rem] flex flex-col">
+            <div class="img-container">
+               <img src="../images/food.png" alt="">
+            </div>
+            <div class="p-4 grow flex-col flex">
+               <h3 class="capitalize text-2xl border-b w-fit pb-2 mb-2">أسم الاكلة</h3>
+               <p class="font-light text-gray-600 mb-4">
+                  لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت,سيت دو أيوسمود تيمبور
+                  أنكايديديونتيوت لابوري ات دولار ماجنا أليكيوا . يوت انيم أد مينيم فينايم,كيواس نوستريد
+                  أكسير سيتاشن يللأمكو لابورأس نيسي يت أليكيوب
+                  </p>
+               <div class="bg-pri w-fit text-sec py-2 px-5 rounded-xl mt-auto">السعر: <strong>10 ريال</strong></div>
+            </div>
+         </div>
+         <div class="bg-gray-100 shadow-lg rounded-[2rem] flex flex-col">
+            <div class="img-container">
+               <img src="../images/food.png" alt="">
+            </div>
+            <div class="p-4 grow flex-col flex">
+               <h3 class="capitalize text-2xl border-b w-fit pb-2 mb-2">أسم الاكلة</h3>
+               <p class="font-light text-gray-600 mb-4">
+                  لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت,سيت دو أيوسمود تيمبور
+                  أنكايديديونتيوت لابوري ات دولار ماجنا أليكيوا . يوت انيم أد مينيم فينايم,كيواس نوستريد
+                  أكسير سيتاشن يللأمكو لابورأس نيسي يت أليكيوب
+                  </p>
+               <div class="bg-pri w-fit text-sec py-2 px-5 rounded-xl mt-auto">السعر: <strong>10 ريال</strong></div>
+            </div>
+         </div>
+         <div class="bg-gray-100 shadow-lg rounded-[2rem] flex flex-col">
+            <div class="img-container">
+               <img src="../images/food.png" alt="">
+            </div>
+            <div class="p-4 grow flex-col flex">
+               <h3 class="capitalize text-2xl border-b w-fit pb-2 mb-2">أسم الاكلة</h3>
+               <p class="font-light text-gray-600 mb-4">
+                  لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت,سيت دو أيوسمود تيمبور
+                  أنكايديديونتيوت لابوري ات دولار ماجنا أليكيوا . يوت انيم أد مينيم فينايم,كيواس نوستريد
+                  أكسير سيتاشن يللأمكو لابورأس نيسي يت أليكيوب
+                  </p>
+               <div class="bg-pri w-fit text-sec py-2 px-5 rounded-xl mt-auto">السعر: <strong>10 ريال</strong></div>
+            </div>
+         </div>
+      </div>
+   </main>
+   <div class="container pb-4">
+      <footer class="z-10 relative text-sec p-4 bg-pri rounded-lg shadow md:flex md:items-center md:justify-between md:p-6">
+         <span class="text-sm sm:text-center">© 2022 <a href="#" class="hover:underline">بارسيه</a>. كل الحقوق محفوظة
+         </span>
+         <ul class="flex gap-4 items-center mt-3 text-sm sm:mt-0">
+            <li>
+               <a href="#" class="text-xl">
+                  <i class="fab fa-facebook"></i>
+               </a>
+            </li>
+            <li>
+               <a href="#" class="text-xl">
+                  <i class="fab fa-snapchat"></i>
+               </a>
+            </li>
+            <li>
+               <a href="#" class="text-xl">
+                  <i class="fab fa-instagram"></i>
+               </a>
+            </li>
+         </ul>
+         <div>
+            تنفيز و تطوير :
+            <a href="https://orizon.qa">
+               <img class="h-4 inline" src="https://orizon.qa/images/logo/nav-logo.png" alt="Orizon Qatar">
+            </a>
+         </div>
+      </footer>
+   </div>
+   <script src="https://unpkg.com/flowbite@1.5.3/dist/flowbite.js"></script>
+</body>
+</html>

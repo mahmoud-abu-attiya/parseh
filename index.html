@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,10 +10,13 @@
    <script src="https://cdn.tailwindcss.com"></script>
    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
       integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous">
-      <link rel="stylesheet" href="style.css">
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="style.css">
+   <!-- en font -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+   <!-- ar font -->
+   <link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet">
    <script>
       tailwind.config = {
          theme: {
@@ -29,85 +33,33 @@
          },
       };
    </script>
+   <style>
+      .ar-btn{
+         font-family: 'Cairo', sans-serif;
+      }
+   </style>
 </head>
+
 <body>
    <header class="h-screen w-full bg-pri">
       <div class="text-layout"></div>
       <div class="z-10 relative container h-full flex gap-8 flex-col items-center justify-center">
          <div class="flex flex-col justify-center items-center translate-y-[10%]">
-            <img class="w-52" src="images/parseh-logo.png" alt="">
-         <div class="flex flex-col md:flex-row gap-4">
-            <a href="ar" class="text-sec border py-2 px-8 text-lg rounded-full border-sec hover:bg-sec hover:text-pri hover:shadow-xl transition">Arabic</a>
-            <a href="ar" class="text-sec border py-2 px-8 text-lg rounded-full border-sec hover:bg-sec hover:text-pri hover:shadow-xl transition">English</a>
-         </div>
+            <img class="w-60" src="images/parseh-logo.png" alt="">
+            <div class="flex flex-col md:flex-row gap-4">
+               <a href="ar/categories.html"
+                  class="ar-btn text-sec border py-2 px-8 text-lg rounded-full border-sec hover:bg-sec hover:text-pri hover:shadow-xl transition">
+                  العربية
+               </a>
+               <a href="en/categories.html"
+                  class="text-sec border py-2 px-8 text-lg rounded-full border-sec hover:bg-sec hover:text-pri hover:shadow-xl transition">
+                  English
+               </a>
+            </div>
          </div>
       </div>
    </header>
-   <main class="bg-gray-50 relative">
-      <div class="text-layout"></div>
-      <div class="container">
-         <div class="max-w-[900px] mx-auto flex items-center justify-center flex-wrap gap-8 text-center py-20">
-            <a href="#" class="cat uppercase text-sec h-60 w-36 relative overflow-hidden border-8 bg-pri/75 z-20 border-white px-8  flex justify-center items-center rounded-full text-xl">
-               <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 scale-110 l1 -z-10 w-full h-full"></div>
-               <p class="font-bold">item</p>
-            </a>
-            <a href="#" class="cat uppercase text-sec h-60 w-36 relative overflow-hidden border-8 bg-pri/75 z-20 border-white px-8  flex justify-center items-center rounded-full text-xl">
-               <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 scale-110 l2 -z-10 w-full h-full"></div>
-               <p class="font-bold">item</p>
-            </a>
-            <a href="#" class="cat uppercase text-sec h-60 w-36 relative overflow-hidden border-8 bg-pri/75 z-20 border-white px-8  flex justify-center items-center rounded-full text-xl">
-               <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 scale-110 l3 -z-10 w-full h-full"></div>
-               <p class="font-bold">item</p>
-            </a>
-            <a href="#" class="cat uppercase text-sec h-60 w-36 relative overflow-hidden border-8 bg-pri/75 z-20 border-white px-8  flex justify-center items-center rounded-full text-xl">
-               <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 scale-110 l4 -z-10 w-full h-full"></div>
-               <p class="font-bold">item</p>
-            </a>
-            <a href="#" class="cat uppercase text-sec h-60 w-36 relative overflow-hidden border-8 bg-pri/75 z-20 border-white px-8  flex justify-center items-center rounded-full text-xl">
-               <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 scale-110 l5 -z-10 w-full h-full"></div>
-               <p class="font-bold">item</p>
-            </a>
-            <a href="#" class="cat uppercase text-sec h-60 w-36 relative overflow-hidden border-8 bg-pri/75 z-20 border-white px-8  flex justify-center items-center rounded-full text-xl">
-               <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 scale-110 l6 -z-10 w-full h-full"></div>
-               <p class="font-bold">item</p>
-            </a>
-            <a href="#" class="cat uppercase text-sec h-60 w-36 relative overflow-hidden border-8 bg-pri/75 z-20 border-white px-8  flex justify-center items-center rounded-full text-xl">
-               <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 scale-110 l7 -z-10 w-full h-full"></div>
-               <p class="font-bold">item</p>
-            </a>
-            <a href="#" class="cat uppercase text-sec h-60 w-36 relative overflow-hidden border-8 bg-pri/75 z-20 border-white px-8  flex justify-center items-center rounded-full text-xl">
-               <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 scale-110 l8 -z-10 w-full h-full"></div>
-               <p class="font-bold">item</p>
-            </a>
-            <a href="#" class="cat uppercase text-sec h-60 w-36 relative overflow-hidden border-8 bg-pri/75 z-20 border-white px-8  flex justify-center items-center rounded-full text-xl">
-               <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 scale-110 l9 -z-10 w-full h-full"></div>
-               <p class="font-bold">item</p>
-            </a>
-         </div>
-      </div>
-      <div class="container pb-4">
-         <footer class="z-10 relative p-4 bg-pri rounded-lg shadow md:flex md:items-center md:justify-between md:p-6">
-            <span class="text-sm text-sec sm:text-center">© 2022 <a href="#" class="hover:underline">Parseh</a>. All Rights Reserved.
-            </span>
-            <ul class="flex flex-wrap items-center mt-3 text-sm text-sec sm:mt-0">
-                <li>
-                    <a href="#" class="mr-4 hover:underline md:mr-6 ">About</a>
-                </li>
-                <li>
-                    <a href="#" class="mr-4 hover:underline md:mr-6">Privacy Policy</a>
-                </li>
-                <li>
-                    <a href="#" class="mr-4 hover:underline md:mr-6">Licensing</a>
-                </li>
-                <li>
-                    <a href="#" class="hover:underline">Contact</a>
-                </li>
-            </ul>
-         </footer>
-      </div>
-   </main>
-
-
    <script src="https://unpkg.com/flowbite@1.5.3/dist/flowbite.js"></script>
 </body>
+
 </html>

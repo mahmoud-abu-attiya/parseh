@@ -24,10 +24,15 @@ header .text-layout{
    top: 100%;
    left: 100%;
    transform: translate(-100%, -100%);
-
+   
+}
+.text-layout.menu{
+   position: fixed;
+   z-index: -1;
 }
 .cat{
    box-shadow: 6px 6px 15px #0000004d;
+   text-shadow: 0px 0px 10px #f6f1bc;
 }
 .l1, .l2, .l3, .l4, .l5, .l6, .l7, .l8, .l9{
    background-position: center;
@@ -35,10 +40,9 @@ header .text-layout{
    transition: 0.3s ease-in-out;
    /* transition: ease-in; */
 } .cat:hover
-.l1, .cat:hover .l2, .cat:hover .l3, .cat:hover .l4, .cat:hover .l5, .cat:hover .l6, .cat:hover .l7, .cat:hover .l8, .cat:hover .l9{
-   /* transform: ; */
+/* .l1, .cat:hover .l2, .cat:hover .l3, .cat:hover .l4, .cat:hover .l5, .cat:hover .l6, .cat:hover .l7, .cat:hover .l8, .cat:hover .l9{
    transform: scale(1.3) translate(-50%, -50%)
-}
+} */
 .l1{
    background-image: linear-gradient(rgba(48, 78, 62, 0.7) , rgba(48, 78, 62, 0.7)) , url("images/food.png");
 }
